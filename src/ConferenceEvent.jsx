@@ -56,6 +56,7 @@ const ConferenceEvent = () => {
 
     const getItemsFromTotalCost = () => {
         const items = [];
+        
     };
 
     const items = getItemsFromTotalCost();
@@ -95,6 +96,12 @@ const ConferenceEvent = () => {
           }
         }
       }
+
+    const totalCosts={
+        venue:venueTotalCost,
+        av:avTotalCost,
+        meals:mealsTotalCost,
+    };
 
     return (
         <>
